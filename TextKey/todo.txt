@@ -1,0 +1,15 @@
+﻿
+
+Add formatting support to the insert keys
+
+        string ParseKey(string key, out IEnumerable<IKeyProcessor> processors)
+        {
+            // inner key format:
+            // [key]:[[processor]-[args]]
+            // e.g
+            // productname:case-upper
+            // key = productname
+            // processor key = case
+            // processor argument  = upper
+
+        }
